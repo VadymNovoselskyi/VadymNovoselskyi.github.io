@@ -18,7 +18,7 @@ body {
 }
 
 main {
-    margin: 0 25%;
+    margin: 0 35%;
 }
 
 main input{
@@ -45,22 +45,18 @@ main section#keyBoard {
 }
 
 @media (max-width: 767px) {
-    body {
-
-    }
-
     main {
-
+        margin: 0 25%;
     }
 
     main input{
-
+        font-size: 3.6rem;
     }
 }
 
 @media (max-width: 339px) {
     main {
-
+        margin: 0 20%;
     }
 
 }
