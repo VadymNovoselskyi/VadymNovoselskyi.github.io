@@ -18,12 +18,12 @@ body {
 }
 
 main {
-    margin: 0 35%;
+    margin: 0 30%;
 }
 
 main input{
     width: 100%;
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     margin-bottom:10px;
     background-color: black;
     color: green;
@@ -37,7 +37,11 @@ main input{
 main section#keyBoard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(3.6rem, 1fr);
+    grid-auto-rows: minmax(8rem, 1fr);
+}
+
+#keyBoard button {
+    font-size: 3rem;
 }
 
 #add, #sub, #mul, #comma, #enter, #div, #clear {
@@ -52,11 +56,27 @@ main section#keyBoard {
     main input{
         font-size: 3.6rem;
     }
+
+    main section#keyBoard {
+        grid-auto-rows: minmax(5rem, 1fr);
+    }
+
+    #keyBoard button {
+    font-size: 2rem;
+    }
 }
 
 @media (max-width: 339px) {
     main {
         margin: 0 20%;
+    }
+
+    main input{
+        font-size: 2.5rem;
+    }
+
+    main section#keyBoard {
+        grid-auto-rows: minmax(3rem, 1fr);
     }
 
 }
