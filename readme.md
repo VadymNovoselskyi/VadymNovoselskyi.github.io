@@ -1,2 +1,4 @@
+Gammal version av miniräknare gjort på WebUtv1 med råa HTML, CSS och JS
+
 ## PWA på github 
-VadymNovoselskyi.github.io  
+https://vadymnovoselskyi.github.io  
